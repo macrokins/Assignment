@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1 class="header">Welcome to I4G x Zuri trainging 111's Pre-Registration landing page.</h1>
+  <div class="container">
+    <div class="intro">
+
+    </div>
+    <form action="login.html">
+      <div class="main-form">
+        <h3>Please fill in your data correctly!</h3><br>
+
+        <div class="content">
+          <label for="fname">First Name</label><br><br>
+          <input type="text" id="fname" name="fname" required><br>
+        </div>
+
+        <div class="content">
+          <label for="lname">Last Name</label><br><br>
+          <input type="text" name="lname" required><br>
+        </div>
+
+        <div class="content">
+          <label for="email">Email</label><br><br>
+          <input type="email" name="email" required><br>
+        </div>
+
+        <div class="content">
+          <label for="pnumber">Phone Number</label><br><br>
+          <input type="tel" name="pnumber" placeholder="123-45-678" required> <br>
+        </div>
+        <div class="content">
+          <label for="dob">Date of Birth</label><br><br>
+          <input type="date" name="dob" min="01/01/2017" max="01/01/1990" required> <br>
+        </div>
+        <div class="content">
+          <label for="gender">please select your gender</label> <br><br>
+          <select name="gender" id="">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select><br>
+        </div>
+        <div class="color">
+          <label for="favcolor">Select your favorite color</label><br /><br>
+          <input type="color" name="favcolor" id=""><br><br>
+        </div>
+        <div class="submit-btn">
+          <input type="submit" value="Submit">
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
